@@ -8,6 +8,7 @@ license = "{{cookiecutter.license}}"
 [tool.poetry.dependencies]
 python = "^3.10"
 starlite = "1.5.1"
+uvicorn = "0.18.2"
 
 [tool.poetry.dev-dependencies]
 
