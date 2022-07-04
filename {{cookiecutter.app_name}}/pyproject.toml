@@ -1,14 +1,15 @@
 [tool.poetry]
 name = "{{cookiecutter.app_name}}"
-version = "{{cookiecutter.app_version}}"
+version = "{{cookiecutter.version}}"
 description = "{{cookiecutter.description}}"
-authors = ["{{cookiecutter.author}}"]
+authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_mail}}>"]
+license = "{{cookiecutter.license}}"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+starlite = "1.5.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
